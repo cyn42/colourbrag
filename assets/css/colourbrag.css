@@ -1,0 +1,62 @@
+
+
+.imagepalette {
+  background: teal;
+  display:flex;
+  flex-flow:row nowrap;
+  max-width: 500px;
+  margin:10px;
+  border-radius: 15px;
+}
+
+.inspiredphoto{
+  background: red;
+  width: 350px;
+  overflow: auto;
+  display: inline-block;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.palette {
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  background: ivory;
+  padding-left: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+
+.colour {
+  width: 130px;
+  height: auto;
+  flex: 1 1;
+  padding: 10px;
+  margin-bottom: 5px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Image {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+}
+
+#colour1 {
+  background: olive;
+  border-top-right-radius: 15px;
+}
+
+#colour2 { background: olivedrab}
+#colour3 { background: yellowgreen}
+#colour4 { background: green}
+#colour5 {
+  background: lime;
+  margin-bottom: 0px;
+  border-bottom-right-radius: 15px;
+}

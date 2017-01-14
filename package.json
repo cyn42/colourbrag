@@ -1,0 +1,20 @@
+{
+  "name": "colourbrag",
+  "version": "1.0.0",
+  "description": "A component for displaying a picture and a related palette",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cynthia Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-animate": "^1.5.9",
+    "angular-aria": "^1.5.9",
+    "angular-material": "^1.1.1",
+    "angular-ui-router": "^0.3.2",
+    "express": "^4.14.0",
+    "request": "^2.78.0"
+  }
+}

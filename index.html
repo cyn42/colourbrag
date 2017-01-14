@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <title>Colour Brag</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.css"/>
+    <link rel="stylesheet" href="assets/css/colourbrag.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+
+  </head>
+
+
+<body ng-app="ColourBrag">
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.js"></script>
+    <script src="node_modules/angular-aria/angular-aria.js"></script>
+    <script type="text/javascript" src="node_modules/angular-material/angular-material.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+
+    <script type="text/javascript" src="app/app.module.js"></script>
+
+    <!--<script type="text/javascript" src="app/components/photopalette/photopalette.component.js"></script>
+-->
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+
+        <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT
+        <div ui-view></div>
+============================== -->
+
+
+<div class="imagepalette md-whiteframe-5dp">
+  <div class="inspiredphoto">
+    <img src="images/forest bridge.jpeg" class="Image" />
+  </div>
+
+<div class="palette">
+    <div class="colour" id="colour1">Colour 1</div>
+    <div class="colour" id="colour2">Colour 2</div>
+    <div class="colour" id="colour3">Colour 3</div>
+    <div class="colour" id="colour4">Colour 4</div>
+    <div class="colour" id="colour5">Colour 5</div>
+  </div>
+
+</div>
+
+    </div>
+
+  </body>
+</html>
