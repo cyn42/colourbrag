@@ -26,6 +26,7 @@
     <script type="text/javascript" src="app/app.module.js"></script>
 
     <script type="text/javascript" src="app/components/imagepalette/imagepalette.component.js"></script>
+    <script type="text/javascript" src="app/components/palette/palette.component.js"></script>
 
 
     <!-- MAIN CONTENT -->
@@ -35,7 +36,17 @@
         <div ui-view></div>
 ============================== -->
     <image-palette></image-palette>
-
+    <div>
+      <div layout="row">
+        <div flex>First item in row</div>
+        <div flex="20">Second item in row</div>
+      </div>
+      <div layout="column">
+        <div flex="66">First item in column</div>
+        <div flex="33">Second item in column</div>
+      </div>
+    </div>
+    
     </div>
 
     </div>
