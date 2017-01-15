@@ -1,7 +1,5 @@
 function PaletteController () {
-  var ctrl = this;
-
-  ctrl.colours = [
+  this.colours = [
         {
           name: 'Olive',
           colourname: "olive"

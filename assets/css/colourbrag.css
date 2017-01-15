@@ -37,16 +37,11 @@
   vertical-align: top;
 }
 
-#colour1 {
-  background: olive;
+.firstswatch {
   border-top-right-radius: 15px;
 }
 
-#colour2 { background: olivedrab}
-#colour3 { background: yellowgreen}
-#colour4 { background: green}
-#colour5 {
-  background: lime;
+.lastswatch {
   margin-bottom: 0px;
   border-bottom-right-radius: 15px;
 }
