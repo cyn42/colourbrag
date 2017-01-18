@@ -1,14 +1,29 @@
-<div class="palette" layout="column" layout-fill layout-align="center stretch">
+<div class="palette" layout="column" layout-fill>
 
 
     <div ng-repeat="swatch in $ctrl.colours"
         class="colour"
-        flex
         style="background: {{swatch.colourname}}"
         ng-class='{firstswatch:$first,lastswatch:$last}'
+        flex
         >
 
+        <div style="float: right;">
+          <icon>
+            <img class="iconimg" src="assets/images/Discard-White.png" />
+          </icon>
+        </div>
+
+        <div style="clear: right; text-align:center;">
           {{swatch.name}}
+        </div>
+
+        <div style="float: right;">
+          <icon ng-if=$last>
+            <img class="iconimg" src="assets/images/Add-WhiteShadow.png" />
+          </icon>
+        </div>
+
     </div>
 
   </div>

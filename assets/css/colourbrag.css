@@ -25,10 +25,10 @@
 }
 
 .colour {
-  padding: 10px;
+  /*padding: 10px;*/
   margin-bottom: 5px;
-  text-align: center;
-  vertical-align: middle;
+  /*text-align: center;
+  vertical-align: middle;*/
 }
 
 .Image {
@@ -45,3 +45,22 @@
   margin-bottom: 0px;
   border-bottom-right-radius: 15px;
 }
+
+icon {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    outline: none;
+    cursor: pointer;
+    &.disabled {
+      opacity: 0.17;
+    }
+
+  }
+.iconimg {
+    width: 30px;
+    height: 30px;
+
+  }

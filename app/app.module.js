@@ -1,6 +1,5 @@
 angular.module('ColourBrag', [
-    'ngMaterial',
-    'ui.router'
+    'ngMaterial'
 ]);
 
 angular.module('ColourBrag').run(function($log) {

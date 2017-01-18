@@ -1,23 +1,6 @@
-function PaletteController () {
-  this.colours = [
-        {
-          name: 'Olive',
-          colourname: "olive"
-        }, {
-          name: 'Olive Drab',
-          colourname: "olivedrab"
-        }, {
-          name: 'Dark Olive Green',
-          colourname: "darkolivegreen"
-        }, {
-          name: 'Forest Green',
-          colourname: "forestgreen"
-        }, {
-          name: 'Sienna',
-          colourname: "sienna"
-        }
-      ];
-
+function PaletteController (PaletteLoaderService,$log) {
+  $log.debug("Inside the PaletteController function");
+  this.colours = PaletteLoaderService.getColours();
 }
 
 angular.
